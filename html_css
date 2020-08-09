@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="sp">
+<head>
+  <meta charset="utf-8">
+  <meta name="keywords" content="html,review">
+  <meta name="description" content="html review page">
+  <meta name="robots" content="nofollow">
+  <meta http-equiv="author" content="Janiya">
+  <meta http-equiv="pragma" content="no-cache">
+  <meta http-equiv="expires" content="Sun, 09 Aug 2020 12:11:32 GMT" />
+  <title></title>
+  <style>
+  body {
+font-family: arial, sans-serif;
+  }
+  </style>
+  <script>
+//alert("Welcome to my shit fool!");
+    </script>
+</head>
+<body>
+<form action="#" method="get">
+<h2>Website Survey Questionnaire</h2>
+<p>Thank you for taking the time to answer these questions. The following questions are about to know how well known and successul is [Site name]</p>
+<hr />
+<p><strong>1. Have you ever heard about [Site name]?</strong></p>
+<label for="Yes">
+<input type="radio" name="questiononeanswer" /> Yes 
+<br />
+<label for="No">
+<input type="radio" name="questiononeanswer" /> No 
+<p><strong>2. How did you learn about [Site name]?</strong></p>
+<select name="source">
+  <option value="blog">Blog</option>
+  <option value="friend">Friend</option>
+  <option value="searchengine">Search engine</option>
+</select>
+<p><strong>3. Do you purchase goods from [Site name]?</strong></p>
+<label for="Yes">
+<input type="radio" name="questionthreeanswer" /> Yes 
+<br />
+<label for="No">
+<input type="radio" name="questionthreeanswer" /> No 
+<p><strong>4. How old are you?</strong></p>
+<label for="Under 18">
+<input type="radio" name="age" /> Under 18
+<br />
+<label for="18 - 25">
+    <input type="radio" name="age" /> 18 -25
+    <br />
+    <label for="25 - 45">
+        <input type="radio" name="age" /> 25-45
+        <br />
+        <label for="45 or more">
+            <input type="radio" name="age" /> 45 or more
+            <p><strong>5. Gender?</strong></p>
+            <select name="gender">
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="non-binary">Non-binary</option>
+            </select>
+            <p><strong>6. How often do you visit our website?</strong></p>
+<select name="sitevisits">
+  <option value="daily">Daily</option>
+  <option value="weekly">Weekly</option>
+  <option value="monthly">Monthly</option>
+  <option value="yearly">Yearly</option>
+</select>
+  <p><strong>7. From 0 to 5, how satisfied are you with our website?</strong></p>
+  <select name="satisfaction">
+    <option value="0">0</option>
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+  </select>
+  <br />
+  <input type="submit" />
+</form>
+
+</body></html>
